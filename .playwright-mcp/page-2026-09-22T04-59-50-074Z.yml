@@ -1,0 +1,69 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - navigation "Primary" [ref=e10]:
+      - button "Dashboard" [ref=e11] [cursor=pointer]
+      - button "Profiles" [ref=e17]
+      - button "Messages" [ref=e23] [cursor=pointer]
+      - button "Statistics" [ref=e26] [cursor=pointer]
+      - button "Schedule" [ref=e28] [cursor=pointer]
+    - generic [ref=e31]:
+      - button "Help" [disabled] [ref=e32]
+      - button "Sign out" [disabled] [ref=e36]
+  - generic [ref=e40]:
+    - banner [ref=e41]:
+      - navigation "Breadcrumb" [ref=e43]:
+        - generic [ref=e44]: People
+        - generic [aria-hidden] [ref=e45]: /
+        - generic [ref=e46]: Profiles
+      - generic [ref=e48]:
+        - generic [ref=e49]: Search profiles
+        - textbox "Search profiles" [ref=e50]
+      - generic [ref=e51]:
+        - button "Notifications" [ref=e52] [cursor=pointer]
+        - button "Settings" [ref=e56] [cursor=pointer]
+        - button "Add profile" [ref=e60] [cursor=pointer]
+    - generic [ref=e63]:
+      - generic [ref=e227]:
+        - heading "Add profile" [level=2] [ref=e228]
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: Full name
+            - textbox "Full name" [ref=e232]: Playwright Tester
+          - generic [ref=e233]:
+            - generic [ref=e234]: Email
+            - textbox "Email" [invalid] [ref=e235]
+            - generic [ref=e268]: Email is required.
+          - generic [ref=e236]:
+            - generic [ref=e237]: Phone number
+            - textbox "Phone number" [ref=e238]
+          - generic [ref=e239]:
+            - generic [ref=e240]: Avatar URL
+            - textbox "Avatar URL" [ref=e250]
+          - generic [ref=e251]:
+            - generic [ref=e252]: Bio
+            - textbox "Bio" [ref=e253]: playwright.tester@example.comCreated via Playwright MCP test.
+        - generic [ref=e254]:
+          - button "Cancel" [ref=e255] [cursor=pointer]
+          - button "Save" [active] [ref=e256] [cursor=pointer]
+      - complementary [ref=e89]:
+        - generic [ref=e257]:
+          - heading "Recent profiles" [level=2] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - generic [ref=e261]:
+                - generic [ref=e262]: Somchai Jaidee
+                - generic [ref=e263]: somchai.jaidee@example.com
+            - listitem [ref=e264]:
+              - generic [ref=e265]:
+                - generic [ref=e266]: Tanawat Pakhaphot
+                - generic [ref=e267]: Test@gmail.com
+    - generic [ref=e103]:
+      - generic [ref=e111]:
+        - generic [ref=e112]: "2"
+        - generic [ref=e113]: Total profiles
+      - generic [ref=e118]:
+        - generic [ref=e119]: "2"
+        - generic [ref=e120]: Profiles with phone
+      - generic [ref=e126]:
+        - generic [ref=e127]: "2"
+        - generic [ref=e128]: Profiles with bio

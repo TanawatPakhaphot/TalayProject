@@ -1,0 +1,72 @@
+.recent-profiles {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-bg);
+}
+
+.recent-profiles__heading {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--text-primary);
+}
+
+.recent-profiles__empty {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: var(--text-muted);
+}
+
+.recent-profiles__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.recent-profiles__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.recent-profiles__avatar {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--field-bg);
+}
+
+.recent-profiles__details {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.recent-profiles__name {
+  font-size: 14px;
+  letter-spacing: 0;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recent-profiles__email {
+  font-size: 12px;
+  letter-spacing: 0;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

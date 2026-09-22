@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap');
+
+:root {
+  --page-bg: #101114;
+  --shell-bg: #202123;
+  --sidebar-bg: #171819;
+  --panel-bg: #191a1c;
+  --panel-raised: #242527;
+  --field-bg: #151617;
+  --border: #303236;
+  --text-primary: #f4f4f2;
+  --text-secondary: #a4a7ad;
+  --text-muted: #73767d;
+  --accent: #d6ff36;
+  --accent-strong: #bde51e;
+  --danger: #ff6969;
+  --warning: #f3bd58;
+  --info: #76a7ff;
+
+  --sans: 'Manrope', 'IBM Plex Sans Thai', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Manrope', 'IBM Plex Sans Thai', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+  --radius-sm: 6px;
+  --radius: 8px;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0;
+  color-scheme: dark;
+  color: var(--text-primary);
+  background: var(--page-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 26px;
+  }
+}
+h2 {
+  font-size: 20px;
+  line-height: 118%;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
+}
+p {
+  margin: 0;
+}
+
+code {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--field-bg);
+}

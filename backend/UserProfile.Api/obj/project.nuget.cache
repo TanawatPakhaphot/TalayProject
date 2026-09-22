@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+aYxYpX/bU4=",
+  "success": true,
+  "projectFilePath": "/workspaces/TalayProject/backend/UserProfile.Api/UserProfile.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/10.0.12/microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.openapi/2.12.0/microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

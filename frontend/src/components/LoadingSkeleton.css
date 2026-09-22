@@ -1,0 +1,71 @@
+.skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skeleton-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+}
+
+.skeleton-row--profile {
+  height: 64px;
+}
+
+.skeleton-row--activity {
+  height: 48px;
+}
+
+.skeleton-row__lines {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skeleton {
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--field-bg) 25%, var(--panel-raised) 50%, var(--field-bg) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-pulse 1.4s ease-in-out infinite;
+}
+
+.skeleton--avatar {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.skeleton--avatar-sm {
+  width: 28px;
+  height: 28px;
+}
+
+.skeleton--line {
+  height: 10px;
+}
+
+.skeleton--line-wide {
+  width: 70%;
+}
+
+.skeleton--line-narrow {
+  width: 40%;
+}
+
+@keyframes skeleton-pulse {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

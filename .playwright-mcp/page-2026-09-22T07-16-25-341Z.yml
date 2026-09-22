@@ -1,0 +1,84 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]: Talay
+      - navigation "Primary" [ref=e10]:
+        - button "Dashboard" [ref=e11] [cursor=pointer]
+        - button "Profiles" [ref=e17]
+        - button "Messages" [ref=e23] [cursor=pointer]
+        - button "Statistics" [ref=e26] [cursor=pointer]
+        - button "Schedule" [ref=e28] [cursor=pointer]
+      - generic [ref=e31]:
+        - button "Help" [disabled] [ref=e32]
+        - button "Sign out" [disabled] [ref=e36]
+    - generic [ref=e40]:
+      - banner [ref=e41]:
+        - navigation "Breadcrumb" [ref=e43]:
+          - generic [ref=e44]: People
+          - generic [aria-hidden] [ref=e45]: /
+          - generic [ref=e46]: Profiles
+        - generic [ref=e48]:
+          - generic [ref=e49]: Search profiles
+          - textbox "Search profiles" [ref=e50]
+        - generic [ref=e51]:
+          - button "Notifications" [ref=e52] [cursor=pointer]
+          - button "Settings" [ref=e56] [cursor=pointer]
+          - button "Add profile" [ref=e60] [cursor=pointer]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e195]:
+            - heading "Profiles" [level=1] [ref=e196]
+            - generic [ref=e197]: 2 users
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - img "Somchai Jaidee avatar" [ref=e200]
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - heading "Somchai Jaidee" [level=2] [ref=e203]
+                  - paragraph [ref=e204]: somchai.jaidee@example.com
+                  - paragraph [ref=e205]:
+                    - generic [ref=e208]: 081-234-5678
+                - paragraph [ref=e209]: Software engineer who loves the sea.
+              - generic [ref=e210]:
+                - button "Edit Somchai Jaidee" [ref=e211] [cursor=pointer]
+                - button "Delete Somchai Jaidee" [ref=e214] [cursor=pointer]
+            - generic [ref=e217]:
+              - img "Nalinee Suksawat avatar" [ref=e218]
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - heading "Nalinee Suksawat" [level=2] [ref=e221]
+                  - paragraph [ref=e222]: nalinee.suksawat@example.com
+                  - paragraph [ref=e223]:
+                    - generic [ref=e226]: 089-555-1234
+                - paragraph [ref=e227]: Product designer focused on accessible dashboards.
+              - generic [ref=e228]:
+                - button "Edit Nalinee Suksawat" [ref=e229] [cursor=pointer]
+                - button "Delete Nalinee Suksawat" [ref=e232] [cursor=pointer]
+        - complementary [ref=e89]:
+          - generic [ref=e156]:
+            - heading "Recent profiles" [level=2] [ref=e157]
+            - list [ref=e158]:
+              - listitem [ref=e235]:
+                - generic [ref=e236]:
+                  - generic [ref=e237]: Nalinee Suksawat
+                  - generic [ref=e238]: nalinee.suksawat@example.com
+              - listitem [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]: Somchai Jaidee
+                  - generic [ref=e162]: somchai.jaidee@example.com
+      - generic [ref=e103]:
+        - generic [ref=e111]:
+          - generic [ref=e112]: "2"
+          - generic [ref=e113]: Total profiles
+        - generic [ref=e118]:
+          - generic [ref=e119]: "2"
+          - generic [ref=e120]: Profiles with phone
+        - generic [ref=e126]:
+          - generic [ref=e127]: "2"
+          - generic [ref=e128]: Profiles with bio
+  - dialog [ref=e249]:
+    - heading "Delete profile" [level=2] [ref=e250]
+    - paragraph [ref=e251]: Delete Nalinee Suksawat? This cannot be undone.
+    - generic [ref=e252]:
+      - button "Cancel" [active] [ref=e253] [cursor=pointer]
+      - button "Delete profile" [ref=e254] [cursor=pointer]

@@ -1,0 +1,99 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation "Primary" [ref=e10]:
+        - button "Dashboard" [ref=e11] [cursor=pointer]
+        - button "Profiles" [ref=e17]
+        - button "Messages" [ref=e23] [cursor=pointer]
+        - button "Statistics" [ref=e26] [cursor=pointer]
+        - button "Schedule" [ref=e28] [cursor=pointer]
+      - generic [ref=e31]:
+        - button "Help" [disabled] [ref=e32]
+        - button "Sign out" [disabled] [ref=e36]
+    - generic [ref=e40]:
+      - banner [ref=e41]:
+        - navigation "Breadcrumb" [ref=e43]:
+          - generic [ref=e44]: People
+          - generic [aria-hidden] [ref=e45]: /
+          - generic [ref=e46]: Profiles
+        - generic [ref=e48]:
+          - generic [ref=e49]: Search profiles
+          - textbox "Search profiles" [ref=e50]
+        - generic [ref=e51]:
+          - button "Notifications" [ref=e52] [cursor=pointer]
+          - button "Settings" [ref=e56] [cursor=pointer]
+          - button "Add profile" [ref=e60] [cursor=pointer]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e436]:
+            - heading "Profiles" [level=1] [ref=e437]
+            - generic [ref=e438]: 3 users
+          - generic [ref=e439]:
+            - generic [ref=e494]:
+              - img "Tanawat Pakhaphot avatar" [ref=e495]
+              - generic [ref=e496]:
+                - generic [ref=e497]:
+                  - heading "Tanawat Pakhaphot" [level=2] [ref=e498]
+                  - paragraph [ref=e499]: Test@gmail.com
+                  - paragraph [ref=e500]:
+                    - generic [ref=e503]: 000-000-0000
+                - paragraph [ref=e504]: Test 1 1 1
+              - generic [ref=e505]:
+                - button "Edit Tanawat Pakhaphot" [ref=e506] [cursor=pointer]
+                - button "Delete Tanawat Pakhaphot" [ref=e509] [cursor=pointer]
+            - generic [ref=e458]:
+              - img "Somchai Jaidee avatar" [ref=e459]
+              - generic [ref=e460]:
+                - generic [ref=e461]:
+                  - heading "Somchai Jaidee" [level=2] [ref=e462]
+                  - paragraph [ref=e463]: somchai.jaidee@example.com
+                  - paragraph [ref=e464]:
+                    - generic [ref=e467]: 081-234-5678
+                - paragraph [ref=e468]: Software engineer who loves the sea.
+              - generic [ref=e469]:
+                - button "Edit Somchai Jaidee" [ref=e470] [cursor=pointer]
+                - button "Delete Somchai Jaidee" [ref=e473] [cursor=pointer]
+            - generic [ref=e512]:
+              - img "Playwright Tester avatar" [ref=e513]
+              - generic [ref=e514]:
+                - generic [ref=e515]:
+                  - heading "Playwright Tester" [level=2] [ref=e516]
+                  - paragraph [ref=e517]: playwright.tester@example.com
+                  - paragraph [ref=e518]:
+                    - generic [ref=e521]: 022-333-4444
+                - paragraph [ref=e522]: Created via Playwright MCP test.
+              - generic [ref=e523]:
+                - button "Edit Playwright Tester" [ref=e524] [cursor=pointer]
+                - button "Delete Playwright Tester" [ref=e527] [cursor=pointer]
+        - complementary [ref=e89]:
+          - generic [ref=e257]:
+            - heading "Recent profiles" [level=2] [ref=e258]
+            - list [ref=e259]:
+              - listitem [ref=e393]:
+                - generic [ref=e394]:
+                  - generic [ref=e395]: Playwright Tester
+                  - generic [ref=e396]: playwright.tester@example.com
+              - listitem [ref=e260]:
+                - generic [ref=e261]:
+                  - generic [ref=e262]: Somchai Jaidee
+                  - generic [ref=e263]: somchai.jaidee@example.com
+              - listitem [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: Tanawat Pakhaphot
+                  - generic [ref=e267]: Test@gmail.com
+      - generic [ref=e103]:
+        - generic [ref=e111]:
+          - generic [ref=e112]: "3"
+          - generic [ref=e113]: Total profiles
+        - generic [ref=e118]:
+          - generic [ref=e119]: "3"
+          - generic [ref=e120]: Profiles with phone
+        - generic [ref=e126]:
+          - generic [ref=e127]: "3"
+          - generic [ref=e128]: Profiles with bio
+  - dialog [ref=e531]:
+    - heading "Delete profile" [level=2] [ref=e532]
+    - paragraph [ref=e533]: Delete Playwright Tester? This cannot be undone.
+    - generic [ref=e534]:
+      - button "Cancel" [active] [ref=e535] [cursor=pointer]
+      - button "Delete profile" [ref=e536] [cursor=pointer]

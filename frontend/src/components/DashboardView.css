@@ -1,0 +1,9 @@
+.dashboard-view {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-view__activity {
+  max-width: 360px;
+}

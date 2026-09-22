@@ -1,0 +1,65 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]: Talay
+    - navigation "Primary" [ref=e10]:
+      - button "Dashboard" [ref=e11] [cursor=pointer]
+      - button "Profiles" [ref=e17]
+      - button "Messages" [ref=e23] [cursor=pointer]
+      - button "Statistics" [ref=e26] [cursor=pointer]
+      - button "Schedule" [ref=e28] [cursor=pointer]
+    - generic [ref=e31]:
+      - button "Help" [disabled] [ref=e32]
+      - button "Sign out" [disabled] [ref=e36]
+  - generic [ref=e40]:
+    - banner [ref=e41]:
+      - navigation "Breadcrumb" [ref=e43]:
+        - generic [ref=e44]: People
+        - generic [aria-hidden] [ref=e45]: /
+        - generic [ref=e46]: Profiles
+      - generic [ref=e48]:
+        - generic [ref=e49]: Search profiles
+        - textbox "Search profiles" [ref=e50]
+      - generic [ref=e51]:
+        - button "Notifications" [ref=e52] [cursor=pointer]
+        - button "Settings" [ref=e56] [cursor=pointer]
+        - button "Add profile" [active] [ref=e60] [cursor=pointer]
+    - generic [ref=e63]:
+      - generic [ref=e163]:
+        - heading "Add profile" [level=2] [ref=e164]
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]: Full name
+            - textbox "Full name" [ref=e168]
+          - generic [ref=e169]:
+            - generic [ref=e170]: Email
+            - textbox "Email" [ref=e171]
+          - generic [ref=e172]:
+            - generic [ref=e173]: Phone number
+            - textbox "Phone number" [ref=e174]
+          - generic [ref=e175]:
+            - generic [ref=e176]: Avatar URL
+            - textbox "Avatar URL" [ref=e186]
+          - generic [ref=e187]:
+            - generic [ref=e188]: Bio
+            - textbox "Bio" [ref=e189]
+        - generic [ref=e190]:
+          - button "Cancel" [ref=e191] [cursor=pointer]
+          - button "Save" [ref=e192] [cursor=pointer]
+      - complementary [ref=e89]:
+        - generic [ref=e156]:
+          - heading "Recent profiles" [level=2] [ref=e157]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: Somchai Jaidee
+                - generic [ref=e162]: somchai.jaidee@example.com
+    - generic [ref=e103]:
+      - generic [ref=e111]:
+        - generic [ref=e112]: "1"
+        - generic [ref=e113]: Total profiles
+      - generic [ref=e118]:
+        - generic [ref=e119]: "1"
+        - generic [ref=e120]: Profiles with phone
+      - generic [ref=e126]:
+        - generic [ref=e127]: "1"
+        - generic [ref=e128]: Profiles with bio
