@@ -110,7 +110,23 @@ sequenceDiagram
 - Backend: `dotnet build UserProfile.slnx` (repo root); runs on port 5100.
 - Frontend: `npm run dev` (port 5173); `npm run lint` (oxlint); `npm run build` (`tsc -b && vite build`).
 
-## 8. Known Limitations / Future Work
+## 8. UI Reference Captures
+
+The screenshots below were captured with Playwright MCP against the running dev servers (`dotnet run` on :5100, `npm run dev` on :5173) and are stored in `docs/screenshots/`. They illustrate the states the frontend design in §4 produces.
+
+| Screen | Capture |
+|---|---|
+| Dashboard — profile list, stats, recent profiles panel | ![Dashboard overview](docs/screenshots/dashboard-overview.png) |
+| Add profile form (empty) | ![Create profile form](docs/screenshots/create-profile-form.png) |
+| Add profile form (filled, pre-submit) | ![Create profile form filled](docs/screenshots/create-profile-form-filled.png) |
+| Dashboard after a second profile is created | ![Dashboard with two profiles](docs/screenshots/dashboard-with-two-profiles.png) |
+| Edit profile form (prefilled from existing data) | ![Edit profile form](docs/screenshots/edit-profile-form.png) |
+| Search filtering the profile list | ![Search filter](docs/screenshots/search-filter.png) |
+| Delete confirmation dialog (`ConfirmDialog`) | ![Delete confirm dialog](docs/screenshots/delete-confirm-dialog.png) |
+
+See [UserManual.md](UserManual.md) for step-by-step usage instructions built around the same captures.
+
+## 9. Known Limitations / Future Work
 
 - No persistent storage (data lost on restart) — would need a real datastore (e.g., EF Core + SQL/SQLite) behind `ProfileStore`'s interface.
 - No authentication/authorization on the API.
